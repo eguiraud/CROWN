@@ -20,6 +20,9 @@ from config.utility import (
 def build_config(era, sample):
     base_config = {
         "global": {
+            "SAMPLE_data": {"ERA_2017": {
+                "golden_json": "data/golden_json/Cert_294927-306462_13TeV_UL2017_Collisions17_GoldenJSON.txt"
+            },}
             "RunLumiEventFilter_Quantities": ["event"],
             "RunLumiEventFilter_Quantity_Types": ["ULong64_t"],
             "RunLumiEventFilter_Selections": ["271361"],
