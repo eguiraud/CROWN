@@ -196,12 +196,12 @@ auto pt_vis(auto &df, const std::string &outputname,
  * @brief Function to calculate the quantity `pZetaMissVis` from the two leptons
  in the event + the met vector. The variable is defined as
  * \f[
-     D_\zeta = p_\zeta^\text{miss} - 0.85 p_\zeta^\text{vis}
-    \qquad;
-    p_\zeta^\text{miss} = \vec{p}_\text{T}^\text{miss} \cdot \hat{\zeta}
-    \qquad;
-    p_\zeta^\text{vis} = (\vec{p}_\text{T}^{p_1} + \vec{p}_\text{T}^{p_2}) \cdot
- \hat{\zeta} \f] where \f$\vec{p}_\text{T}^{p_{1,2}}\f$ corresponds to the
+     D_\zeta = p_\zeta^{miss} - 0.85 p_\zeta^{vis}
+    ;\qquad
+    p_\zeta^{miss} = \vec{p}_{T}^{miss} \cdot \hat{\zeta}
+    ;\qquad
+    p_\zeta^{vis} = (\vec{p}_{T}^{p_1} + \vec{p}_{T}^{p_2}) \cdot
+ \hat{\zeta} \f] where \f$\vec{p}_{T}^{p_{1,2}}\f$ corresponds to the
  transverse momentum vector of the first (second) lepton and \f$\hat{\zeta}\f$
  to the bisectional direction between the two leptons in the transverse plane.
  For more information check
